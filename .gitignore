@@ -1,0 +1,8 @@
+*.eim
+models/*.eim
+__pycache__/
+*.pyc
+data/test/*_result.jpg
+data/test/*_result.png
+results/
+.DS_Store
