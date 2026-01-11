@@ -12,7 +12,7 @@ NC='\033[0m'
 MODEL_PATH="models/model.eim"
 SCRIPT_PATH="scripts/classify_batch.py"
 
-echo -e "${GREEN}[INFO] 開始執行自動化推論...${NC}"
+echo -e "${GREEN}[SYSTEM] 🚀 系統啟動！開始執行自動化物件偵測...${NC}"
 
 # 1. 檢查檔案是否存在
 if [ ! -f "$MODEL_PATH" ]; then
