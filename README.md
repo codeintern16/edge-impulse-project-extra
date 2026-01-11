@@ -22,4 +22,13 @@ sudo apt-get update
 sudo apt-get install libopencv-dev python3-opencv
 # 如果遇到 externally-managed-environment 錯誤，請加上 --break-system-packages
 pip3 install edge_impulse_linux opencv-python numpy --break-system-packages
+## 📤 Week 13: 數據自動上傳
+本週新增了自動化上傳工具，可將本地圖片批次上傳至 Edge Impulse。
 
+### 使用方式
+```bash
+# 設定 API Key
+export EI_API_KEY="ei_..."
+
+# 上傳圖片
+./scripts/upload_data.sh <標籤> <圖片路徑>

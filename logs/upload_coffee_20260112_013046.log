@@ -1,0 +1,17 @@
+Edge Impulse uploader v1.37.1
+Stored token seems invalid, clearing cache...
+This API is only available through JWT token authentication
+Endpoints:
+    API:         https://studio.edgeimpulse.com
+    Ingestion:   https://ingestion.edgeimpulse.com
+
+Upload configuration:
+    Label:       coffee
+    Category:    split
+
+Uploading to project "ruler / clone" (https://studio.edgeimpulse.com/studio/863517)
+
+[1/2] Uploading data/collected/coffee/test2.jpg OK (1510 ms)
+[2/2] Uploading data/collected/coffee/test1.jpg OK (2588 ms)
+
+Done. Files uploaded successful: 2. Files that failed to upload: 0.
